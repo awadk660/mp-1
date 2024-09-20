@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Title</title>
+    </head>
+    <body>
+        <header>
+            <h1>Awad Khawaja</h1> <br>
+            My online resume
+        </header>
+            <div class="wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/education/index.html">Education</a></li>
+                        <li><a href="/employment/index.html">Employment</a></li>
+                        <li><a href="/achievements/index.html">Achievements</a></li>
+                        <li><a href="/references/index.html">References</a></li>
+                        <li><a href="/calculator/index.html">Calculator</a></li>
+                    </ul>
+                </nav>
+
+                <main>
+                    <h2>Calculator</h2>
+                    <div class="spanimage">
+                        <!-- +, -, *, /, **, Clear -->
+                        First Number: 
+                        <input type="number" id="number1">
+                        Second Number:
+                        <input type="number" id="number2">
+                        
+                    </div>
+                    <div class="opbuttons">
+                        <button onclick="addition()">+</button>
+                        <button onclick="subtract()">-</button>
+                        <button onclick="multiply()">*</button>
+                        <button onclick="divide()">/</button>
+                        <button onclick="exponential()">**</button>
+                        <button onclick="clearFields()">Clear</button>
+                    </div>
+                    <p id="output"></p>
+                </main>
+            </div>
+            <footer>
+                All Rights Reserved by Awad Khawaja <a href="">Credits</a> &#169;
+            </footer>
+            <script src="calculator.js"></script>
+    </body>
+</html>
